@@ -1,0 +1,20 @@
+{
+  "name": "validate_js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "validate_index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "js",
+    "validate"
+    ],
+    "repository": {
+    "type": "git",
+    "url": "https://github.com/zengjielin/validate_js.git"
+    },
+  "author": "",
+  "license": "ISC"
+}
