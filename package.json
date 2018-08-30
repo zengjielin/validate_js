@@ -1,9 +1,9 @@
 {
-  "name": "validate_js",
+  "name": "validate_index_js",
   "version": "1.0.0",
   "description": "",
   "main": "validate_index.js",
-  "private": true,
+  "private": false,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
