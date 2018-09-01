@@ -22,6 +22,7 @@ export function validateAlphabets(str) {
     return reg.test(str)
 }
 
+/* 邮箱 */
 /**
  * validate email
  * @param email
@@ -31,3 +32,41 @@ export function validateEmail(email) {
     const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
     return re.test(email)
 }
+
+/* 手机号码 */
+/**
+ * validate telphone
+ * @param telphone
+ * @returns {boolean}
+ */
+export function validateTelphone(telphone) {
+    const re = /^1[3|5|7|8][0-9]\d{4,8}$/
+    return re.test(telphone)
+}
+
+/* 两位小数价格 */
+/**
+ * validate price
+ * @param price
+ * @returns {boolean}
+ */
+export function validatePrice(price) {
+    const re = /^[0-9]+(.[0-9]{2})?$/
+    return re.test(price)
+}
+
+/* 中文 */
+/**
+ * validate Chinese
+ * @param Chinese
+ * @returns {boolean}
+ */
+export function validateChinese(Chinese) {
+    const re = /^[\u0391-\uFFE5]+$/
+    return re.test(Chinese)
+}
+
+
+
+
+
